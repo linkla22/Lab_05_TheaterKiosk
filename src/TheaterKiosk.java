@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class TheaterKiosk {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter your age: ");
+        int age = scanner.nextInt();
+        scanner.close();
+        if (age >= 21) {
+            System.out.println("Congratulations! You get a wrist band.");
+        } else {
+        }
+    }
+}
+
